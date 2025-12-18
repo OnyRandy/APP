@@ -31,7 +31,7 @@ jobs:
 
     - name: Run backend tests
       run: npm test
-      working-directory: ./backend
+      working-directory: ./BACKEND
 
     # 4️⃣ Frontend - installer et build
     - name: Install frontend dependencies
